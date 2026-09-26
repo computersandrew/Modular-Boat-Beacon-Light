@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.4,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -521,8 +521,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
@@ -537,7 +537,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "specctra_dsn": "",
       "vrml": ""
     },
