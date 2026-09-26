@@ -9,7 +9,7 @@ A rebuild of the RowKraft Beacon, a small red/green nav light for rowing shells.
 
 The board mounts along the boat's centerline inside a sealed, semi-transparent 3D printed tube. Red LEDs are on the front (port side), green on the back (starboard side). Screwing down the end cap presses a lever microswitch, which turns the lights on.
 
-**Status:** schematic done, starting PCB layout. -> Test print @ Mercer X Labs -> PCBWay or JLPCB perhaps
+**Status:** Version 1 Gerber/Drill files created! Prototyping very soon I hope lol.
 
 ## Schematic
 
@@ -21,6 +21,12 @@ Rough breakdown:
 - **Protection:** DW01A watches the cell and switches the FS8205A dual MOSFET in the negative lead. Cuts off on overcharge, overdischarge, and overcurrent.
 - **USB:** power-only USB-C jack with 5.1k pulldowns on both CC pins so USB-C chargers will actually supply 5 V.
 - **LEDs:** 12 parallel branches off the switched battery rail, each at about 20 mA. Total draw is around 240 mA.
+
+## PCB Layout 
+
+![Schematic](docs/PCB_Editor.png)
+
+PCB Dimensions are exactly 75mm x 127mm
 
 ## Runtime
 
